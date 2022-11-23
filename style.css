@@ -17,11 +17,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-pink1);
   color: var(--color-white);
+  /* background-image: url(img/minha-foto.png);  */
 }
 
-logo_header {
-  width: 45em;
+body img minha-foto{
+  height: 250px;
+  /* background-image: url(./img/minha-foto.png); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-y: 50px; */
+  width: 250px;
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: center;
+  align-items: center; */
 }
+
+/* h2{
+  fon
+} */
+
+.fita-rosa {
+  width: 50px; 
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} 
 
 .header {
   background-color: var(--color-pink2);
@@ -29,6 +53,7 @@ logo_header {
   height: 3.5em; /*56px */
   justify-content: space-between;
   padding: 0 10%;
+  
 }
 
 .nagivation_header {

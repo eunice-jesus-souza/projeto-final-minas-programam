@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Câncer de Mama</title>
   </head>
   <body>
@@ -24,8 +24,8 @@
           />
         </svg>
       </button>
-      <div class="logo_header">
-        <img src="img/logo_cancer.png" class="logo_cancer" alt="Logo Cancer" />
+      <div class="logo">
+        <img src="img/fita-rosa.png" class="fita-rosa" alt="Logo Cancer" />
       </div>
       <div class="nagivation_header" id="nagivation_header">
         <button onclick="toggleSidebar()" class="btn_icon_header">
@@ -42,86 +42,188 @@
             />
           </svg>
         </button>
-        <a href="a" class="active">Home</a>
-        <a href="a" class="active">RH +</a>
-        <a href="a" class="active">RH -</a>
+        <a href="a" class="active">BI-RADS</a>
+        <a href="a" class="active">Tipos de Câncer</a>
+        <a href="a" class="active">Tratamento</a>
+
+        <!-- <img src="img/minha-foto.png" class="foto" alt=""> -->
       </div>
     </div>
 
     <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
-      <h1>Tipos Câncer Hers2</h1>
+      <h1>Câncer de Mama</h1>
     </div>
 
-    <h2>QUIMIOTERAPIAS</h2>
-
-    <h3>Vermelha</h3>
-    <ul>
-      <li>
-        <p>Náusea</p>
-        <p>Constipação</p>
-        <p>Enxaqueca</p>
-        <p>Alteração da saliva</p>
-        <p>Inchaço</p>
-        <p>Queda de cabelo</p>
-        <p>Fadiga</p>
-        <p>Hemorragia</p>
-        <p>Insônia</p>
-        <p>Alteração dos nervos</p>
-      </li>
-    </ul>
-
-    <h3>Branca</h3>
-    <ul>
-      <li>
-        <p>
-          Queda dos glóbulos brancos e, portanto, redução das defesas do
-          organismo contra infecções
-        </p>
-        <p>Neuropatia</p>
-        <p>Ganho de peso</p>
-        <p>Dores articulares</p>
-        <p>Queda de cabelo</p>
-        <p>Diarreia</p>
-        <p>Náusea e vômito</p>
-        <p>Alergia de pele</p>
-      </li>
-    </ul>
-
-    <p>
-      A diferença entre quimioterapia branca e vermelha está no medicamento
-      utilizado no tratamento. Ao passo que alguns possuem coloração vermelha,
-      outros são transparentes.
-    </p>
-
-    <p>
-      Os efeitos colaterais também podem variar um pouco, como explicado
-      anteriormente. A periodicidade de cada tratamento vai depender da decisão
-      médica, baseado nas necessidades de cada paciente.
-    </p>
-
-    <p>
-      Nenhuma forma de tratamento é mais forte do que a outra, sendo diferente
-      apenas nos princípios ativos da fórmula. É importante seguir o tratamento
-      até o fim e cuidar dos efeitos colaterais. Converse sempre com seu médico
-      e tire todas as suas dúvidas.
-    </p>
-
-    <h2>RADIOTERAPIA</h2>
+    
+    <!-- <br /> -->
+    <div>
+      <p class="bi-rads">
+        <h2>BI-RADS</h2>
+        <br>
+        Se você faz uma mamografia e apresenta alguma lesão suspeita, seja ela um
+        nódulo, um cisto, uma calcificação ou uma lesão claramente maligna, é
+        importante que o laudo desta mamografia seja o mais direto e compreensível
+        o possível. Para que todos os médicos, independentemente das suas
+        especialidades, possam entender e interpretar os resultados da sua
+        mamografia de modo uniforme, o radiologista precisa sintetizar os achados
+        mamográficos usando uma das 6 categorias da classificação de BI-RADS.
+        Através desta classificação, o seu médico poderá facilmente distinguir a
+        probabilidade da sua lesão ser maligna ou benigna.
+      </p>
+    </div>
     <br />
-    <strong>Quando é indicada</strong>
+    <div>
+      <p class="tipos">
+        <h2>Tipos de Cancer</h2>
+        <br>
+        O câncer de mama pode se apresentar de diversas maneiras. Ele não é igual
+        de um paciente para outro, cada caso é influenciado por uma série de
+        características. Por causa dessas variações, cada paciente com câncer de
+        mama terá uma estratégia de tratamento diferente e adequada para o seu
+        caso. Para conhecer corretamente o tipo e as características do câncer que
+        você tem, converse com seu médico. Muitas dessas informações estão no
+        resultado da biópsia, conhecido como laudo anatomopatológico. Entenda o
+        que significam os resultados desse exame.
+      </p>
+    </div>
+    <!-- <br> -->
+    
+    <div>
+      <p>
+        <h2>Classificação molecular:</h2>
+        <br>
+        Define a presença, nas células do tumor, de proteínas chamadas receptores hormonais (estrogênio e/ou progesterona) e de proteína HER2 em grande quantidade.
+      </p>
+      <br>
+      <p>
+        – Luminal A: tumores que apresentam receptores de estrogênio e progesterona positivos 
+        (ou seja, há muitos receptores hormonais presentes), não apresentam a expressão da proteína HER2 (HER2 negativo) 
+        e possuem crescimento mais lento das células.
+        <br>
+        
+      </p>
+      <br>
+      <p>– Luminal B: também possuem receptores estrogênio e/ou progesterona positivos, não expressam a proteína HER2 (HER2 negativo) e apresentam um nível mais acelerado de proliferação celular.</p>
+      <br>
+      <p>– HER2: não apresentam expressão dos receptores hormonais (receptores hormonais negativos), mas têm a expressão da proteína HER2 (HER2 positivo).</p>
+      <br>
+      <p>– Triplo Negativo: não possuem nem expressão hormonal, nem a proteína HER2, sendo negativo, portanto para estrogênio, progesterona e HER2. Ocorrem com mais frequência em mulheres jovens e em mulheres negras.</p>
+      <br>
+      <h2>tratamento localizados</h2>
+      <br>
+    </div>
+    
+    <div>
+      <p class="cirurgia">
+        <h3>CIRURGIA</h3>
+        <br>
+        Normalmente é a modalidade mais usada nos cânceres de mama. A cirurgia consiste em retirar o tumor da mama, podendo realizar o procedimento através da remoção de uma parte da mama ou do órgão interno. 
 
-    <p>
-      A radioterapia é indicada para tratar ou controlar o crescimento de
-      tumores benignos ou de câncer, podendo ser utilizada antes, durante ou
-      após o tratamento com cirurgia ou quimioterapia.
-    </p>
-
-    <h2>Como funciona</h2>
-
-    <p>
-      A radioterapia tem como objetivo diminuir a taxa de multiplicação das
-      células cancerígenas
-    </p>
+        Nesse método, é possível que o médico cirurgião analise a presença do linfonodo  sentinela axilar (primeiro linfonodo que pode ser comprometido no caso de uma metástase). Isso possibilita a compreensão da extensão da ressecção dos linfonodos que deve ser feita
+      </p>
+      <br>
+    </div>
+    <div>
+      <p class="radio">
+        <h3>RADIOTERAPIA</h3>
+        <br>
+        Essa modalidade consiste na aplicação de radiação ionizante que, através da quebra do DNA das células tumorais, mata as células que possuem tumor. Sua aplicação pode ser feita no leito tumoral, em toda a mama, na axila e em áreas de drenagem linfonodal extra axilar. 
+      </p>
+      <br>
+      <p>
+        <h3>QUIMIOTERAPIA CITOTÓXICA</h3>
+        <br>
+        Nesse procedimento são utilizadas drogas capazes de destruir as células por meio de bloqueio da divisão celular. Podemos destacar as principais, que são: Antraciclinas (adriamicina e epirubicina), Taxanos (Paclitaxel e docetaxel), 5-fluouracil, ciclofosfamida e carboplatina.
+      </p>
+    </div>
+      <br>
+    <div>
+      <p class="alvo">
+        <h3>TERAPIA ALVO</h3>
+        <br>
+        Esse procedimento não pode ser feito em todos os pacientes, só naqueles que tenham tumores com alterações moleculares. As principais drogas disponíveis são: Amplificação do gene HER-2, Mutações no gene PI3KCA e Mutações nos genes BRCA1 e BRCA2. 
+      </p>
+    </div>
+    <br>
+    <div>
+     
+      <p>
+        <h3>IMUNOTERAPIA</h3>
+        <br>
+        Nessa modalidade utilizam-se drogas que auxiliam o sistema imunológico a ver o tumor como inimigo e destruí-lo. O único imunoterápico disponível é o Atezolizumabe
+      </p>
+      <br>
+    </div>
+    <div >
+      <section class="sintomas">
+          <h3>Vermelha</h3>
+          <br>
+          <ul>
+            <li>
+              <p>Náusea</p>
+              <p>Constipação</p>
+              <p>Enxaqueca</p>
+              <p>Alteração da saliva</p>
+              <p>Inchaço</p>
+              <p>Queda de cabelo</p>
+              <p>Fadiga</p>
+              <p>Hemorragia</p>
+              <p>Insônia</p>
+              <p>Alteração dos nervos</p>
+            </li>
+          </ul>
+          <br>
+        <h3>Branca</h3>
+        <br>
+        <ul>
+          <li>
+            <p>
+              Queda dos glóbulos brancos e, portanto, redução das defesas do
+              organismo contra infecções
+            </p>
+            <p>Neuropatia</p>
+            <p>Ganho de peso</p>
+            <p>Dores articulares</p>
+            <p>Queda de cabelo</p>
+            <p>Diarreia</p>
+            <p>Náusea e vômito</p>
+            <p>Alergia de pele</p>
+          </li>
+        </ul>
+        <br>
+        <p>
+          A diferença entre quimioterapia branca e vermelha está no medicamento
+          utilizado no tratamento. Ao passo que alguns possuem coloração vermelha,
+          outros são transparentes.
+        </p>
+        <br>
+        <p>
+          Os efeitos colaterais também podem variar um pouco, como explicado
+          anteriormente. A periodicidade de cada tratamento vai depender da decisão
+          médica, baseado nas necessidades de cada paciente.
+        </p>
+        <br>
+        <p>
+          Nenhuma forma de tratamento é mais forte do que a outra, sendo diferente
+          apenas nos princípios ativos da fórmula. É importante seguir o tratamento
+          até o fim e cuidar dos efeitos colaterais. Converse sempre com seu médico
+          e tire todas as suas dúvidas.
+        </p>
+        <br>
+        <h2>RADIOTERAPIA</h2>
+        <br />
+        <p>
+          <h3>Como funciona</h3>
+          <br>
+          A radioterapia é indicada para tratar ou controlar o crescimento de
+          tumores benignos ou de câncer, podendo ser utilizada antes, durante ou
+          após o tratamento com cirurgia ou quimioterapia.
+          <br>
+          A radioterapia tem como objetivo diminuir a taxa de multiplicação das
+          células cancerígenas
+        </p>
+      </section>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>
