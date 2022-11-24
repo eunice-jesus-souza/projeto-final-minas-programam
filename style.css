@@ -17,35 +17,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-pink1);
   color: var(--color-white);
-  /* background-image: url(img/minha-foto.png);  */
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-body img minha-foto{
-  height: 250px;
-  /* background-image: url(./img/minha-foto.png); */
-  background-position: center center;
+.foto {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position-y: 50px; */
-  width: 250px;
-  /* display: flex;
-  flex-direction: row; */
-  /* justify-content: center;
-  align-items: center; */
+  background-size: cover;
+  flex-direction: column-reverse;
+  background-position-y: 50px;
+  width: 150%;
+  /* width: 100%; */
+  height: 100%;
+  max-width: 500;
+  max-height: 800;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-/* h2{
-  fon
-} */
-
 .fita-rosa {
-  width: 50px; 
+  width: 50px;
   height: auto;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-around;
-} 
+}
 
 .header {
   background-color: var(--color-pink2);
@@ -53,7 +55,6 @@ body img minha-foto{
   height: 3.5em; /*56px */
   justify-content: space-between;
   padding: 0 10%;
-  
 }
 
 .nagivation_header {
@@ -73,6 +74,7 @@ body img minha-foto{
   color: var(--color-white);
   transition: 1s;
   font-weight: bold;
+  text-align: center;
 }
 
 .nagivation_header a:hover {
@@ -114,6 +116,22 @@ body img minha-foto{
     animation-duration: 1s;
     margin-left: -100vw;
   }
+}
+
+.footer {
+  background-color: var(--color-pink2);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.lista-footer li {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
 }
 
 @keyframes showSidebar {
